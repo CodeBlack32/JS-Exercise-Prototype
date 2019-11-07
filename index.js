@@ -120,10 +120,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Implicit Binding- using `this` to call a method on a parent object
+  2. Explicit Binding- using this along with call, bind, and apply to manipulate args from the object
+  3. New Binding- Adds a new instance to an already created object
+  4. Window Binding- if none of the other principles are met, javascript will send the object to the window.
 */
 
 
